@@ -1,0 +1,166 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+	background-color: #f2f2f2;
+	padding: 25px;
+}
+
+.jumbotron .h1, .jumbotron h1 {
+	font-size: 41px;
+	font-family: auto;
+	font-weight: bold;
+}
+ h1{
+ font-size: 41px;
+	font-family: auto;
+	font-weight: bold;
+	   
+}
+
+.jumbotron p {
+	margin-bottom: 15px;
+	font-size: 21px;
+	font-weight: 200;
+	font-family: fangsong;
+	letter-spacing: 0.5px;
+}
+
+.jumbotron {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: #fcffd8;
+}
+
+@media ( max-width :767px) {
+	.jumbotron .h1, .jumbotron h1 {
+		font-size: 30px;
+	}
+	.jumbotron p {
+		margin-bottom: 15px;
+		font-size: 17px;
+	}
+	.custgrid{
+	display:block !important;
+}
+	
+	
+	
+}
+
+.input-container {
+	display: -ms-flexbox; /* IE10 */
+	display: flex;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.icon {
+	padding: 10px;
+	background: dodgerblue;
+	color: white;
+	min-width: 50px;
+	text-align: center;
+}
+
+.input-field {
+	width: 100%;
+	padding: 10px;
+	outline: none;
+}
+
+.input-field:focus {
+	border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+	background-color: dodgerblue;
+	color: white;
+	padding: 15px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+}
+
+.btn:hover {
+	background-color: black;
+	color: white;
+}
+ #calendar {
+        max-width: 900px;
+        margin: 50px auto;
+    }
+    span{
+    font-size: 19px !important;
+        font-family: emoji;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .form-check {
+        font-size: 19px;
+        font-family: emoji;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    input[type=checkbox], input[type=radio] {
+        width: 30px;
+        margin: 6px 0 0;
+        margin-top: 1px\9;
+        line-height: normal;
+        height: 15px;
+        cursor: pointer;
+    }
+
+    select {
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        padding: 9px;
+        width: 100px;
+        margin: 0 4%;
+        border-radius: 6px;
+        width: -webkit-fill-available;
+    }
+
+    #yesNoSelect option {
+        font-weight: bold;
+    }
+
+    /* Color styles for select options */
+    #yesNoSelect {
+        color: black; /* Default color */
+    }
+    .h1, h1 {
+    font-size: 17px;
+}
+
+
+.card{
+	margin:2%;
+	padding: 5px;
+    text-align: center;
+    background: #fefff2 !important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+@media (min-width: 768px) {
+    .container, .container-md, .container-sm {
+        max-width: -webkit-fill-available;
+    }
+}
+
+
+
+
+
+
+
+
